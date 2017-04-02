@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inventory.cit.inventorymanagement.AddInventory"
+    tools:showIn="@layout/activity_add_inventory">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Product ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:id="@+id/tvproductid"
+                android:layout_gravity="center"
+                />
+
+            <EditText
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:layout_marginTop="28dp"
+                android:id="@+id/etproductid"
+                android:layout_marginRight="27dp"
+                android:layout_marginEnd="27dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Product Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:id="@+id/tvproductname"
+                android:layout_gravity="center"
+                />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:layout_marginTop="28dp"
+                android:id="@+id/etproductname"
+
+                android:layout_marginRight="27dp"
+                android:layout_marginEnd="27dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Product Quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:id="@+id/tvproductquantity"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:layout_marginTop="28dp"
+                android:id="@+id/etproductquantity"
+                android:layout_marginRight="27dp"
+                android:layout_marginEnd="27dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Supplier ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:id="@+id/tvsupplierid"
+                android:layout_gravity="center"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:layout_marginTop="28dp"
+                android:id="@+id/etsupplierid"
+
+                android:layout_marginRight="27dp"
+                android:layout_marginEnd="27dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="BATCH NO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:id="@+id/tvbatchno"
+                android:layout_gravity="center"
+                />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:layout_marginTop="28dp"
+                android:id="@+id/etbatchno"
+
+                android:layout_marginRight="27dp"
+                android:layout_marginEnd="27dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:text="Batch Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:id="@+id/tvbatchdate"
+                android:layout_gravity="center"
+                />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:layout_marginTop="28dp"
+                android:id="@+id/etbatchdate"
+
+                android:layout_marginRight="27dp"
+                android:layout_marginEnd="27dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+
+            <TextView
+                android:text="REORDER LEVEL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:id="@+id/tvreorderlevel"
+                android:layout_gravity="center"
+                />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginTop="28dp"
+                android:id="@+id/etreorderlevel"
+                android:layout_marginRight="27dp"
+                android:layout_marginEnd="27dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id ="@+id/btsuppliersave"
+            android:text="@string/btsave"
+
+            />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
